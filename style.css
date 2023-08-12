@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    background-color: #000;
+    align-items: center;
+    
+}
+nav{
+    padding: 0px 12px;
+    background-color:  #fff;
+    position: fixed;
+    /* width: 100%; */
+    
+}
+header{
+    position: relative;
+    width: 100%;
+}
+img{
+    height: 32px;
+}
+#mentt{
+    color: #5fcf80;
+    padding-left: 80px;
+    font-size: 40px;
+    text-transform: capitalize;
+    display: flex;
+    padding-right: 60px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    /* gap: 40px; */
+    text-align: center;
+    /* padding-left: 60px; */
+    margin: auto;
+    
+   
+}
+.btn:hover{
+    color: #5fcf80;
+    cursor: pointer;
+    background-color: white;
+    
+}
+#mmg{
+}
+.section1{
+    
+    height: 600px;
+    width: 100%;
+    background: url(./photo_2023-08-11_01-15-23.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.sp{
+    font-size: 60px;
+    padding-top: 200px;
+    padding-left: 100px;
+    color: #fff;
+}
+.ppp{
+    padding-left: 110px;
+    font-size: 40px;
+    color: #ffff;
+}
+.spn{
+    color: white;
+}
+.btn{
+    background-color: #fff;
+    width: 60px;
+    margin: 30px 30px 0 0;
+    /* padding-right: 10px; */
+    font-size: 15px;
+    margin-left: 90px;
+    border-radius:20%;
+}
+.bton{
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.bton:hover{
+    background-color: #5fcf80;
+    transition: 1s;
+}
+.section2{
+    display: flex;
+}
+.img2{
+    width: 900px;
+    height: 400px;
+    margin-top: 60px;
+}
+.pag{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.pag2{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.pag3{
+    font-size: 20px;
+    margin-left: 80px;
+    letter-spacing: 1px;
+}
+.pag4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.avrage{
+    margin-top: 200px;
+    display: flex;
+    background-color: #fff;
+    font-size: 50px;
+    
+    justify-content: space-between;
+    gap: 40px;
+    /* width: 900px; */
+    padding-left: 200px;
+    /* padding-right: 200px; */
+    color: #5fcf80;
+}
